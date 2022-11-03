@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Links & Images</title>
+</head>
+<body>
+  <!-- External link -->
+  <p>
+    <a href="http://google.com">Click For Google</a>
+  </p>
+  <p>
+    <a href="http://google.com" target="_blank">Click For Google</a>
+  </p>
+
+  <!-- Internal link -->
+  <p>
+    <a href="./04_typography_end.html">Typography</a>
+  </p>
+
+  <!-- Local image -->
+  <img src="./images/line13.jpg" alt="My Image" width="200">
+
+  <!-- Remote image -->
+  <img src="https://source.unsplash.com/200x200/?building" alt="My Image 2">
+
+    <!-- Images for understanding the size of Images -->
+    <img
+      src="images/asd.jpg"
+      alt="Girl in a jacket"
+      style="width: 250px; height: 300px;"
+    />
+    <section>
+      <h2>Responsive Image</h2>
+      <p>
+        When we set the CSS width property to 100%, it makes the image
+        responsive. Resize the browser window to see the effect.
+      </p>
+      <img src="images/asd.jpg" style="width: 100%;" />
+    </section>
+
+    
+    <!-- Understanding Images  -->
+    <section>
+      <h2>Image Links</h2>
+
+      <p>The image is a link. You can click on it.</p>
+
+      <a href="https://www.facebook.com">
+        <img
+          src="images/logo.png"
+          alt="HTML tutorial"
+          title="Go to Facebook"
+          style="width: 42px; height: 42px; border: 0;"
+        />
+      </a>
+
+      <p>
+        We have added "border:0" to prevent IE9 (and earlier) from displaying a
+        border around the image.
+      </p>
+    </section>
+    <!-- Understanding link attribute -->
+    <section>
+      <h1>Link attribute</h1>
+      <p>
+        The target attribute specifies where to open the linked document.<br />
+
+        The target attribute can have one of the following values:<br />
+
+        _blank - Opens the linked document in a new window or tab<br />
+
+        _self - Opens the linked document in the same window/tab as it was
+        clicked (this is default)<br />
+
+        _parent - Opens the linked document in the parent frame<br />
+
+        _top - Opens the linked document in the full body of the window<br />
+
+        framename - Opens the linked document in a named frame<br />
+      </p>
+      <a href="https://www.facebook.com">Facebook</a>
+      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    </section>
+
+    
+</body>
+</html>
